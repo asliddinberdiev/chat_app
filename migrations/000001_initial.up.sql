@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS "users" (
+    "id" VARCHAR PRIMARY KEY,
+    "username" VARCHAR NOT NULL UNIQUE,
+    "email" VARCHAR NOT NULL UNIQUE,
+    "password" VARCHAR NOT NULL
+)
